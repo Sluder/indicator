@@ -1,6 +1,5 @@
 {
     "name": "sluder/indicator",
-    "version": "1.0.0",
     "description": "A package for stock & crypto market indicators",
     "authors": [
         {
@@ -9,16 +8,9 @@
         }
     ],
     "require": {},
-    "extra": {
-        "laravel": {
-            "providers": [
-                "sluder\\indicator\\IndicatorServiceProvider"
-            ]
-        }
-    },
     "autoload": {
         "psr-4": {
-            "Sluder\\Indicator\\": "src/"
+            "Sluder\\Indicator\\": "src"
         }
     }
 }
