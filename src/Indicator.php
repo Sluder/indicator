@@ -2,37 +2,23 @@
 
 namespace Sluder\Indicator;
 
-use Sluder\Indicator\Exceptions\IndicatorException;
-
 class Indicator
 {
     /**
      * Simple Moving Average
-     *
-     * @throws IndicatorException
      */
     public static function sma($ticks, $length)
     {
-        if (count($ticks) < $length) {
-            throw new IndicatorException("Ticks length needs to be >= EMA length");
-        }
-
         $ticks = array_splice(array_reverse($ticks), 0, $length);
 
-        return array_sum($ticks) / count($ticks);
+        return (array_sum($ticks) / count($ticks));
     }
 
     /**
      * Triple Moving Average
-     *
-     * @throws IndicatorException
      */
     public static function tma($ticks, $length_low, $length_medium, $length_high)
     {
-        if ($length_low >= $length_medium || $length_low >= $length_high || $length_medium >= $length_high) {
-            throw new IndicatorException("TMA lengths need to fit format length_low < length_medium < length_high");
-        }
-        
         $ticks = array_reverse($ticks);
 
         $low_ticks = array_splice($ticks, 0, $length_low);
@@ -63,15 +49,9 @@ class Indicator
 
     /**
      * Triple Exponential Moving Average
-     *
-     * @throws IndicatorException
      */
     public static function tema($ticks, $length_low, $length_medium, $length_high)
     {
-        if ($length_low >= $length_medium || $length_low >= $length_high || $length_medium >= $length_high) {
-            throw new IndicatorException("TEMA lengths need to fit format length_low < length_medium < length_high");
-        }
-
         $tema = [];
         $ticks = array_reverse($ticks);
 
@@ -94,15 +74,9 @@ class Indicator
 
     /**
      * Moving Average Convergence Divergence
-     *
-     * @throws IndicatorException
      */
     public static function macd($ticks, $length_low, $length_high)
     {
-        if ($length_low >= $length_high) {
-            throw new IndicatorException("MACD lengths need to fit format length_low < length_high");
-        }
-
         $ticks = array_reverse($ticks);
 
         $low_ema = self::ema(array_reverse(array_splice($ticks, 0, $length_low)));
