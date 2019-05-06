@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d074b06a-1ab8-49aa-b665-b6563738f038" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/Indicator.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Indicator.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/IndicatorException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Indicator.php" beforeDir="false" afterPath="$PROJECT_DIR$/Indicator.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,19 +18,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Indicator.php">
+        <entry file="file://$PROJECT_DIR$/Indicator.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="689">
-              <caret line="75" column="44" selection-start-line="75" selection-start-column="44" selection-end-line="75" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="6" lean-forward="true" selection-start-column="6" selection-end-column="6" />
+            <state relative-caret-position="553">
+              <caret line="67" lean-forward="true" selection-start-line="67" selection-end-line="67" />
             </state>
           </provider>
         </entry>
@@ -44,10 +36,10 @@
       <list>
         <option value="$PROJECT_DIR$/IndicatorServiceProvider.php" />
         <option value="$PROJECT_DIR$/src/IndicatorServiceProvider.php" />
-        <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/src/Exceptions/IndicatorException.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/Indicator.php" />
+        <option value="$PROJECT_DIR$/composer.json" />
       </list>
     </option>
   </component>
@@ -72,11 +64,6 @@
               <item name="indicator" type="b2602c69:ProjectViewProjectNode" />
               <item name="indicator" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="indicator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="indicator" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -95,8 +82,8 @@
       <recent name="C:\Users\Zachary\Development\Projects\Web\indicator" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Zachary\Development\Projects\Web\indicator\src" />
       <recent name="C:\Users\Zachary\Development\Projects\Web\indicator" />
+      <recent name="C:\Users\Zachary\Development\Projects\Web\indicator\src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -122,12 +109,12 @@
       <option name="presentableId" value="Default" />
       <updated>1557159793372</updated>
       <workItem from="1557159794769" duration="100000" />
-      <workItem from="1557159914363" duration="7642000" />
+      <workItem from="1557159914363" duration="7812000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7742000" />
+    <option name="totallyTimeSpent" value="7912000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
@@ -172,13 +159,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="9" lean-forward="true" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -193,10 +173,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Indicator.php">
+    <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="689">
-          <caret line="75" column="44" selection-start-line="75" selection-start-column="44" selection-end-line="75" selection-end-column="44" />
+        <state relative-caret-position="102">
+          <caret line="6" column="47" lean-forward="true" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Indicator.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="553">
+          <caret line="67" lean-forward="true" selection-start-line="67" selection-end-line="67" />
         </state>
       </provider>
     </entry>
